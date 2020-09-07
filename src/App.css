@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 3em;
 }
 
 .App-logo {
@@ -43,13 +44,35 @@ div.modal-content{
   /* background-image: url(./scoop.png); */
 }
 
-.modal-backdrop
-{
+.modal-backdrop {
     width: auto;
     opacity:0.5 !important;
 }
 
+.typing{  
+  font-family: Raleway;
+  font-size: 10vw;
+  border-right: solid 3px rgb(0, 0, 0);
+  white-space: nowrap;
+  overflow: hidden;  
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
 
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 71%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgb(0, 0, 0);}
+  to{border-right-color: transparent;}
+}
 
 @keyframes App-logo-spin {
   from {

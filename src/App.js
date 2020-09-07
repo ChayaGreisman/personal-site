@@ -11,18 +11,12 @@ function App() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="App" style={{paddingTop: '3em'}}>
+    <div className="App">
 
       <IceCreamModal show={show} handleClose={handleClose}/>
       <NavBar handleShow={handleShow}/>
-
-
-
-
-
-        <img src="./mepic2.png" alt="chaya-greisman"/>
-        <h1 style={{fontFamily: 'Raleway', fontSize: '10vw'}}>Hey! I'm Chaya.</h1>
-
+      
+      <p className="typing">Hey! I'm Chaya.</p>
       <div id='about'>
           <img src="./mepic2.png" alt="chaya-greisman"/>
           <h1 style={{fontFamily: 'Raleway', fontSize: '10vw'}}>Hey! I'm Chaya.</h1>
