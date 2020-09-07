@@ -28,6 +28,29 @@
   color: #61dafb;
 }
 
+div.modal{
+  background-color: none;
+}
+
+div.modal-content{
+  height: 30em;
+  width: 30em;
+  /* border-radius: 50%; */
+  padding: 7em;
+  border: none;
+  background-color: #ffffff00;
+  background-image: url(./icecream.png);
+  /* background-image: url(./scoop.png); */
+}
+
+.modal-backdrop
+{
+    width: auto;
+    opacity:0.5 !important;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
