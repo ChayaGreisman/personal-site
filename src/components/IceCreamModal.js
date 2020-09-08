@@ -27,5 +27,4 @@ function IceCreamModal(props){
       </div>
   );
 }
-
 export default IceCreamModal;

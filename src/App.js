@@ -69,13 +69,9 @@ function App() {
 
   return (
     <div className="App">
-
       <IceCreamModal show={show} handleClose={handleClose}/>
-      <NavBar handleShow={handleShow}/>
-      
+      <NavBar handleShow={handleShow}/>   
       <p style={{marginTop: window.screen.height - (window.screen.height/2.6)}} className="typing">Hey! I'm Chaya.</p>
-
-
       <h1>       
         <span
           className="txt-rotate"
