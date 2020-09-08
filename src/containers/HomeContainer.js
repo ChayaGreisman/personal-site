@@ -1,11 +1,13 @@
 import React from 'react';
 import MainTypingText from '../components/MainTypingText';
-
-
+import SmallTypingText from '../components/SmallTypingText';
 
 function HomeContainer(){
   return (
-    <MainTypingText/>
+    <React.Fragment>
+        <MainTypingText/>  
+        <SmallTypingText/>
+    </React.Fragment>
   );
 }
 

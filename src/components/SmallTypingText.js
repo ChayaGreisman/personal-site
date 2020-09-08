@@ -61,13 +61,13 @@ function SmallTypingText(){
     
     
   return (
-      <h4>       
+      <h2 className="changing-text">       
         <span
           className="txt-rotate"
           data-period="2000"
           data-rotate='[ "software engineer", "knowledge junkie", "self taught gymnast", "ice cream enthusiast", "creator" ]'>
         </span> 
-      </h4>  
+      </h2>  
   );
 }
 

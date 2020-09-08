@@ -29,11 +29,8 @@
   color: #61dafb;
 }
 
-/* <nav class="   bg-light fixed-top" style="width: 100%;"><a href="#home" class="navbar-brand">Chaya Greisman</a><button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="navbar-collapse collapse" id="responsive-navbar-nav"><div class="mr-auto navbar-nav"><a href="#about" data-rb-event-key="#about" class="nav-link">About</a><a href="#pricing" data-rb-event-key="#pricing" class="nav-link">Pricing</a><a href="#" class="nav-link" role="button">🍦</a></div></div></nav>
-
-nav.navbar.navbar-expand-lg.navbar-light. */
-
 a.nav-link {
+  color: black;
   padding: 0;
   background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ffffff 50%);
   background-position: -0% 0;
@@ -65,18 +62,11 @@ div.modal{
 
 
 div.modal-content{
-
-  
   width:inherit;
   max-width:inherit; 
-  
   height:inherit;
-  
   margin: 0 auto;
   pointer-events:all;
-
-  /* height: 30em;
-  width: 30em; */
   padding: 7em;
   border: none;
   background-color: #ffffff00;
@@ -84,7 +74,6 @@ div.modal-content{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  
 }
 
 .modal-backdrop {
@@ -147,6 +136,11 @@ div.fade.in.modal {
   overflow: hidden;  
   animation: animated-text 4s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
+}
+
+.changing-text{
+  margin-left: 25px;
+  text-align: left;
 }
 
 

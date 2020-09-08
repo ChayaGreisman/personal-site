@@ -5,6 +5,7 @@ import NavBar from './components/Nav';
 import IceCreamModal from './components/IceCreamModal';
 import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
+import ProjectsContainer from './containers/ProjectsContainer';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           {/* <Route exact  path ='/rooms/:id' render={routerProps=><RoomPage {...routerProps} rooms={this.state.rooms} currentUser={this.state.currentUser} handleDeleteRoom={this.handleDeleteRoom} handleNewRoomPhoto={this.handleNewRoomPhoto}/>}/>  */}
           <Route exact path="/" component= {HomeContainer} />
           <Route exact path="/about" component= {AboutContainer} />
-          {/* <Route exact path="/projects" component= {ProjectsContainer} /> */}
+          <Route exact path="/projects" component= {ProjectsContainer} />
         </Switch>  
         </React.Fragment>
       </Router>
