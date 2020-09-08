@@ -139,6 +139,7 @@ div.fade.in.modal {
 
 .typing{ 
   /* margin-top: 3.75em;  */
+  margin-bottom: 0;
   font-family: Raleway;
   font-size: 10vw;
   border-right: solid 3px rgb(0, 0, 0);
