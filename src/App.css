@@ -33,15 +33,41 @@ div.modal{
   background-color: none;
 }
 
+.vertical-alignment-helper {
+  display:table;
+  height: 100%;
+  width: 100%;
+  pointer-events:none;}
+  
+  .vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events:none;}
+  
+
+
 div.modal-content{
-  height: 30em;
-  width: 30em;
-  /* border-radius: 50%; */
+
+  
+  width:inherit;
+  max-width:inherit; 
+  
+  height:inherit;
+  
+  margin: 0 auto;
+  pointer-events:all;
+
+  /* height: 30em;
+  width: 30em; */
   padding: 7em;
   border: none;
   background-color: #ffffff00;
   background-image: url(./icecream.png);
-  /* background-image: url(./scoop.png); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
 }
 
 .modal-backdrop {
@@ -50,13 +76,20 @@ div.modal-content{
 }
 
 div.modal-body {
-  margin-top: 8em;
-  margin-left: 3em;
-  margin-right: 2em;
+  margin-top: 230px;
+  margin-left: 25px;
+  margin-right: 12px;
   font-family: Raleway;
   font-weight: 500;
-  justify-content: center;
   text-align: center;
+}
+
+div.fade.in.modal {
+  display:flex !important;
+}
+
+.modal-dialog {
+  margin: auto;
 }
 
 .ice-cream-close{
@@ -88,7 +121,7 @@ div.modal-body {
 }
 
 .typing{ 
-  margin-top: 40%; 
+  /* margin-top: 3.75em;  */
   font-family: Raleway;
   font-size: 10vw;
   border-right: solid 3px rgb(0, 0, 0);

@@ -1,10 +1,11 @@
 import React from 'react';
-import {Modal, Button} from 'react-bootstrap';
+import {Modal} from 'react-bootstrap';
 
 
 function IceCreamModal(props){
   return (
-      <Modal show={props.show} onHide={props.handleClose} animation={false} centered>
+    <div class="vertical-alignment-helper">
+      <Modal show={props.show} onHide={props.handleClose} animation={false} className='vertical-align-center' centered>
               <Modal.Body>
                   <strong>Favorite's gotta be mint chip ... yours?</strong>
                <br/>
@@ -18,11 +19,12 @@ function IceCreamModal(props){
                 </a>
                <br/>
                <br/>
-                <Button className="ice-cream-close" onClick={props.handleClose}>
+                <button className="ice-cream-close" onClick={props.handleClose}>
                   Close
-                </Button>
+                </button>
               </Modal.Body>
       </Modal>
+      </div>
   );
 }
 

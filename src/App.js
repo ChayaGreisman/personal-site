@@ -73,7 +73,7 @@ function App() {
       <IceCreamModal show={show} handleClose={handleClose}/>
       <NavBar handleShow={handleShow}/>
       
-      <p className="typing">Hey! I'm Chaya.</p>
+      <p style={{marginTop: window.screen.height - (window.screen.height/2.6)}} className="typing">Hey! I'm Chaya.</p>
 
 
       <h1>       
