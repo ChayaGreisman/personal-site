@@ -29,6 +29,23 @@
   color: #61dafb;
 }
 
+/* <nav class="   bg-light fixed-top" style="width: 100%;"><a href="#home" class="navbar-brand">Chaya Greisman</a><button aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button><div class="navbar-collapse collapse" id="responsive-navbar-nav"><div class="mr-auto navbar-nav"><a href="#about" data-rb-event-key="#about" class="nav-link">About</a><a href="#pricing" data-rb-event-key="#pricing" class="nav-link">Pricing</a><a href="#" class="nav-link" role="button">🍦</a></div></div></nav>
+
+nav.navbar.navbar-expand-lg.navbar-light. */
+
+a.nav-link {
+  padding: 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,0) 50%, #ffffff 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  transition: background-position 0.5s ease-out;
+  
+}
+a.nav-link:hover {
+  background-position: -99.99% 0;
+  border-left: rgb(157, 163, 157) solid 2px;
+}
+
 div.modal{
   background-color: none;
 }

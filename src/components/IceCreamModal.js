@@ -9,7 +9,6 @@ function IceCreamModal(props){
               <Modal.Body>
                   <strong>Favorite's gotta be mint chip ... yours?</strong>
                <br/>
-               <br/>
                <small><strong>Let me know:</strong></small>
                <br/>
                <a href = "mailto: chayamgreisman@gmail.com">

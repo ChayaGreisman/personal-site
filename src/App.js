@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import IceCreamModal from './components/IceCreamModal';
 import NavBar from './components/Nav';
@@ -70,7 +71,7 @@ function App() {
   return (
     <div className="App">
       <IceCreamModal show={show} handleClose={handleClose}/>
-      <NavBar handleShow={handleShow}/>   
+      <NavBar handleShow={handleShow}/> 
       <p style={{marginTop: window.screen.height - (window.screen.height/2.6)}} className="typing">Hey! I'm Chaya.</p>
       <h1>       
         <span
@@ -87,6 +88,23 @@ function App() {
       </div>
     </div>
   );
+
+
+
+//   return (
+//     <Router>
+//     <React.Fragment>
+//     <Switch>
+//       <Route exact  path ='/rooms/:id' render={routerProps=><RoomPage {...routerProps} rooms={this.state.rooms} currentUser={this.state.currentUser} handleDeleteRoom={this.handleDeleteRoom} handleNewRoomPhoto={this.handleNewRoomPhoto}/>}/> 
+//       <Route exact path="/" component= {Home} />
+//       <Route exact path="/login" component= {Login} />
+//       <Route exact path="/:id" component= {DashboardContainer} />
+//     </Switch>  
+//     </React.Fragment>
+//   </Router>
+// );
+
+
 }
 
 export default App;
