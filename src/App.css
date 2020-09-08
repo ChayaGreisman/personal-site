@@ -49,6 +49,44 @@ div.modal-content{
     opacity:0.5 !important;
 }
 
+div.modal-body {
+  margin-top: 8em;
+  margin-left: 3em;
+  margin-right: 2em;
+  font-family: Raleway;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+}
+
+.ice-cream-close{
+  background-color: #b0cea5;
+  border-color: #c3e0ad;
+  color: #325027;
+  border-radius: 40%;
+}
+
+.ice-cream-close:hover{
+  background-color: #8dac82;
+  border-color: #c3e0ad;
+  color: #203617;
+  border-width: 2px;
+}
+
+.ice-cream-close:clicked{
+  background-color: #8dac82;
+  border-color: #c3e0ad;
+  border-width: 2px;
+}
+
+.bi-envelope{
+  color: black;
+}
+
+.bi-envelope:hover{
+  color: #d1e6c9;
+}
+
 .typing{  
   font-family: Raleway;
   font-size: 10vw;
