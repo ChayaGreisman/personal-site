@@ -86,8 +86,8 @@ function App() {
 
 
       <div id='about'>
-          <img src="./mepic2.png" alt="chaya-greisman"/>
-          <h1 style={{fontFamily: 'Raleway', fontSize: '10vw'}}>Hey! I'm Chaya.</h1>
+          <img src="./mepic2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
+          
       </div>
     </div>
   );

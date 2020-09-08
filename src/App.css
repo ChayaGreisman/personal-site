@@ -87,7 +87,8 @@ div.modal-body {
   color: #d1e6c9;
 }
 
-.typing{  
+.typing{ 
+  margin-top: 40%; 
   font-family: Raleway;
   font-size: 10vw;
   border-right: solid 3px rgb(0, 0, 0);
@@ -98,18 +99,9 @@ div.modal-body {
 }
 
 
-/* text animation */
-
 @keyframes animated-text{
   from{width: 0;}
   to{width: 71%;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-right-color: rgb(0, 0, 0);}
-  to{border-right-color: transparent;}
 }
 
 @keyframes App-logo-spin {
@@ -119,4 +111,8 @@ div.modal-body {
   to {
     transform: rotate(360deg);
   }
+}
+
+img.chaya-greisman-pic{
+  width: 20em;
 }
