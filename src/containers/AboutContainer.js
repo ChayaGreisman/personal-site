@@ -7,7 +7,7 @@ function AboutContainer(){
   const history = useHistory()
 
   return (
-    <div style={{paddingTop: "110px"}}>
+    <div style={{paddingTop: "130px"}}>
         
         <img src="./mepic2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
         <div className = 'about-text'>

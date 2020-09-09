@@ -6,6 +6,7 @@ import IceCreamModal from './components/IceCreamModal';
 import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
 import ProjectsContainer from './containers/ProjectsContainer';
+import Contact from './components/contact';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/" component= {HomeContainer} />
           <Route exact path="/about" component= {AboutContainer} />
           <Route exact path="/projects" component= {ProjectsContainer} />
+          <Route exact path="/contact" component= {Contact} />
         </Switch>  
         </React.Fragment>
       </Router>

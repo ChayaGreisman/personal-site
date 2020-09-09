@@ -7,7 +7,7 @@ function ProjectsContainer(){
 
   return (
     
-    <div style={{paddingTop: "110px"}}>
+    <div style={{paddingTop: "130px"}}>
       <img className="project-image" src='./gelt.gif' alt="gelt"/>
       <img className="project-image" src='./goodnightmoon.gif' alt="goodnight-moon"/>
       <img className="project-image" src='./homehue.gif' alt="home-hue"/>
