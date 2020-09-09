@@ -183,6 +183,12 @@ img.chaya-greisman-pic{
   width: 20em;
 }
 
+.about-text{
+  margin: 2em;
+  margin-right: 15em;
+  margin-left: 15em;
+}
+
 .project-image{
   margin: 5px;
   margin-bottom: 30px;

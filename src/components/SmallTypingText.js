@@ -55,7 +55,7 @@ function SmallTypingText(){
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666; background-color: white }";
+        css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666; border-bottom: 0.08em dotted #666; background-color: white }";
         document.body.appendChild(css);
       };
     
@@ -65,7 +65,7 @@ function SmallTypingText(){
             <span
             className="txt-rotate"
             data-period="2000"
-            data-rotate='[ "software engineer", "knowledge junkie", "self taught gymnast", "ice cream enthusiast", "creator" ]'>
+            data-rotate='[ "software engineer", "knowledge junkie", "artist + designer", "self taught gymnast", "ice cream enthusiast", "web developer"]'>
             </span> 
         </h2> 
   );
