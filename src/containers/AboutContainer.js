@@ -4,10 +4,11 @@ import SmallTypingText from '../components/SmallTypingText';
 function AboutContainer(){
 
   return (
-    <React.Fragment>
+    <div style={{paddingTop: "110px"}}>
+        
         <img src="./mepic2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
         <SmallTypingText/>
-    </React.Fragment>
+    </div>
   );
 }
 

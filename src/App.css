@@ -29,6 +29,10 @@
   color: #61dafb;
 }
 
+nav.navbar{
+  background-color: rgba(255, 255, 255, 0.418);
+}
+
 a.nav-link {
   color: black;
   padding: 0;
@@ -43,7 +47,7 @@ a.nav-link:hover {
   border-left: rgb(157, 163, 157) solid 2px;
 }
 
-div.modal{
+.ice-cream div.modal{
   background-color: none;
 }
 
@@ -61,7 +65,7 @@ div.modal{
   
 
 
-div.modal-content{
+ div.modal-content{
   width:inherit;
   max-width:inherit; 
   height:inherit;
@@ -127,21 +131,38 @@ div.fade.in.modal {
 }
 
 .typing{ 
-  /* margin-top: 3.75em;  */
+  /* background-color: rgba(255, 255, 255, 0.288); */
   margin-bottom: 0;
   font-family: Raleway;
   font-size: 10vw;
-  border-right: solid 3px rgb(0, 0, 0);
+  border-right: solid 3px black;
   white-space: nowrap;
   overflow: hidden;  
   animation: animated-text 4s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
 }
 
-.changing-text{
-  margin-left: 25px;
+.socials{
   text-align: left;
+  /* padding-left: 5px; */
 }
+
+.socials-icons{
+  font-size: 8vw;
+  padding: 14px;
+}
+
+.socials-icons:hover{
+  color: white;
+  background-color: #212529;
+  border-radius: 50%;
+  padding: 14px;
+}
+
+/* .changing-text{
+  margin-left: 10em;
+  text-align: left;
+} */
 
 
 @keyframes animated-text{
@@ -160,4 +181,9 @@ div.fade.in.modal {
 
 img.chaya-greisman-pic{
   width: 20em;
+}
+
+.project-image{
+  margin: 5px;
+  margin-bottom: 30px;
 }
