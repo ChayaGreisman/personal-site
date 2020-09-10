@@ -8,7 +8,7 @@ function NavBar(props){
     
   return (
     <Navbar fixed='top' style={{width: '100%'}} collapseOnSelect expand="lg" >
-        <Navbar.Brand onClick={()=>props.history.push('/')}>Chaya Greisman</Navbar.Brand>
+        <Navbar.Brand onClick={()=>props.history.push('/')} style={{fontFamily: 'Raleway'}}>Chaya Greisman</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">

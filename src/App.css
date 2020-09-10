@@ -30,7 +30,7 @@
 }
 
 nav.navbar{
-  background-color: rgba(255, 255, 255, 0.418);
+  background-color: #EBF7EE;
 }
 
 a.nav-link {
@@ -184,9 +184,14 @@ img.chaya-greisman-pic{
 }
 
 .about-text{
+  font-size: 2vw;
   margin: 2em;
   margin-right: 2em;
   margin-left: 2em;
+}
+
+.fa-chevron-circle-down{
+  font-size: 25px;
 }
 
 .changing-about-text{
@@ -197,6 +202,40 @@ img.chaya-greisman-pic{
 .project-image{
   margin: 5px;
   margin-bottom: 30px;
+}
+
+div.project-card{
+  margin-left: '20px';
+  margin-right: '20px';
+  padding: '20px';
+  background-color: "white";
+  border-radius: '15px';
+}
+
+.project-content{
+  text-align: center;
+}
+
+.project-content > *{
+  margin: 10px;
+}
+
+h1.project-title{
+  font-family: 'Raleway';
+  font-weight: '600';
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .contact{
@@ -226,3 +265,8 @@ img.chaya-greisman-pic{
   padding: 14px;
 }
 
+
+.close-project{
+  text-align: right;
+  font-size: 5vw;
+}

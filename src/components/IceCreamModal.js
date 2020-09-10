@@ -9,7 +9,7 @@ function IceCreamModal(props){
               <Modal.Body>
                   <strong>Favorite's gotta be mint chip ... yours?</strong>
                <br/>
-               <small><strong>Let's connect':</strong></small>
+               <small><strong>Let's connect:</strong></small>
                <br/>
                <a href = "mailto: chayamgreisman@gmail.com?subject=Hi%20Chaya!&body=Hi,%20I%20hope%20you%20enjoyed%20exploring%20my%20site!%20Looking%20forward%20to%20hearing%20from%20you%20about%20opportunities%20and%20anything%20else%20you%20might%20want%20to%20reach%20out%20about%20in%20this%20email.%20🧿%20Chaya">
                     <svg width="2em" height="2em" viewBox="0 0 16 16" className="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

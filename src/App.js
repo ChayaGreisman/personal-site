@@ -7,6 +7,12 @@ import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
 import ProjectsContainer from './containers/ProjectsContainer';
 import Contact from './components/contact';
+import Gelt from './components/gelt';
+import HomeHue from './components/homehue';
+import GoodnightMoon from './components/goodnight';
+import Cubicle from './components/cubicle';
+import StoreManager from './components/storemanager';
+import Sunshine from './components/sunshine';
 
 
 function App() {
@@ -17,17 +23,20 @@ function App() {
 
   return (
     <div className="App">
-      
       <IceCreamModal show={show} handleClose={handleClose}/> 
       <Router>
         <React.Fragment>
-          {/* <NavBar handleShow={handleShow}/> */}
           <Route render={routerProps=><NavBar handleShow={handleShow} {...routerProps}  />}/> 
         <Switch>
-          {/* <Route exact  path ='/rooms/:id' render={routerProps=><RoomPage {...routerProps} rooms={this.state.rooms} currentUser={this.state.currentUser} handleDeleteRoom={this.handleDeleteRoom} handleNewRoomPhoto={this.handleNewRoomPhoto}/>}/>  */}
           <Route exact path="/" component= {HomeContainer} />
           <Route exact path="/about" component= {AboutContainer} />
-          <Route exact path="/projects" component= {ProjectsContainer} />
+          <Route exact path="/projects" component={ProjectsContainer} />
+            <Route exact path="/projects/gelt" component= {Gelt} />
+            <Route exact path="/projects/home-hue" component= {HomeHue} />
+            <Route exact path="/projects/goodnight-moon" component= {GoodnightMoon} />
+            <Route exact path="/projects/sunshine" component= {Sunshine} />
+            <Route exact path="/projects/cubicle" component= {Cubicle} />
+            <Route exact path="/projects/store-manager" component= {StoreManager} />
           <Route exact path="/contact" component= {Contact} />
         </Switch>  
         </React.Fragment>
