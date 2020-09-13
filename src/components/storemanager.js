@@ -9,7 +9,7 @@ function StoreManager(props){
       <br/>
       <div className='project-content'>
         <div>
-          <h1 className='project-title' style={{fontWeight: '600'}}>StoreManager©️</h1>
+          <h1 className='project-title' style={{fontWeight: '600'}}>Store Manager©️</h1>
           <br/>
           <h5>StoreManager is a store inventory management CLI (non-browser) app built in Ruby.
           </h5>
