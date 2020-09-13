@@ -1,11 +1,8 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 
-
-
 function NavBar(props){
 
-    
   return (
     <Navbar fixed='top' style={{width: '100%'}} collapseOnSelect expand="lg" >
         <Navbar.Brand onClick={()=>props.history.push('/')} style={{fontFamily: 'Raleway'}}>Chaya Greisman</Navbar.Brand>
@@ -19,7 +16,7 @@ function NavBar(props){
                 <Nav.Link href="#" onClick={props.handleShow}>🍦</Nav.Link>
             </Nav>
         </Navbar.Collapse>
-  </Navbar>
+    </Navbar>
   );
 }
 

@@ -58,8 +58,7 @@ function SmallTypingText(){
         css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666; border-bottom: 0.08em dotted #666; background-color: white; }";
         document.body.appendChild(css);
       };
-    
-    
+      
   return (
         <h3 className="changing-about-text">       
             <span
