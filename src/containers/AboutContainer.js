@@ -1,13 +1,9 @@
 import React from 'react';
-import { useHistory } from 'react-router'
 
 function AboutContainer(){
-
-  const history = useHistory()
-
   return (
     <div style={{paddingTop: "75px"}}>
-       <img src="./mepic2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
+        <img src="./mepic2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
         <div className = 'about-text'>
           <h4>I'm Chaya, a Full Stack Developer with experience in Rails, JavaScript, React, and multiple CSS frameworks.</h4>
           <br/>
