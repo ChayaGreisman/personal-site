@@ -26,8 +26,7 @@ function App() {
     <div className="App">
       <IceCreamModal show={show} handleClose={handleClose}/> 
       <Router>
-        <React.Fragment>
-          <Route render={routerProps=><NavBar handleShow={handleShow} {...routerProps}  />}/> 
+        <Route render={routerProps=><NavBar handleShow={handleShow} {...routerProps}  />}/> 
         <Switch>
           <Route exact path="/" component= {HomeContainer} />
           <Route exact path="/about" component= {AboutContainer} />
@@ -40,8 +39,7 @@ function App() {
             <Route exact path="/projects/cubicle" component= {Cubicle} />
             <Route exact path="/projects/store-manager" component= {StoreManager} />
           <Route exact path="/contact" component= {Contact} />
-        </Switch>  
-        </React.Fragment>
+        </Switch> 
       </Router>
     </div>
   );
