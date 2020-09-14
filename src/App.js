@@ -5,6 +5,7 @@ import NavBar from './components/Nav';
 import IceCreamModal from './components/IceCreamModal';
 import HomeContainer from './containers/HomeContainer';
 import AboutContainer from './containers/AboutContainer';
+import ResumeContainer from './containers/ResumeContainer';
 import ProjectsContainer from './containers/ProjectsContainer';
 import Contact from './components/contact';
 import Gelt from './components/gelt';
@@ -30,6 +31,7 @@ function App() {
         <Switch>
           <Route exact path="/" component= {HomeContainer} />
           <Route exact path="/about" component= {AboutContainer} />
+          <Route exact path="/resume" component= {ResumeContainer} />
           <Route exact path="/projects" component={ProjectsContainer} />
             <Route exact path="/projects/gelt" component= {Gelt} />
             <Route exact path="/projects/home-hue" component= {HomeHue} />

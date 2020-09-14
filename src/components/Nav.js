@@ -11,7 +11,7 @@ function NavBar(props){
             <Nav className="mr-auto">
                 <Nav.Link href="#" onClick={()=>props.history.push('/about')}>About Me</Nav.Link>
                 <Nav.Link href="#" onClick={()=>props.history.push('/projects')}>Projects</Nav.Link>
-                <Nav.Link href="#" onClick={()=>window.open('https://drive.google.com/file/d/1-UW792IFW4Q2_RW4gLTDFcW-N_WYFcUZ/view?usp=sharing','_blank')}>Resume</Nav.Link>
+                <Nav.Link href="#" onClick={()=>props.history.push('/resume')}>Resume</Nav.Link>
                 <Nav.Link href="#" onClick={()=>props.history.push('/contact')}>Contact</Nav.Link>
                 <Nav.Link href="#" onClick={props.handleShow}>🍦</Nav.Link>
             </Nav>

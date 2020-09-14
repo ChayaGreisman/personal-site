@@ -148,7 +148,7 @@ div.fade.in.modal {
 }
 
 .socials-icons{
-  font-size: 8vw;
+  font-size: 7vw;
   padding: 14px;
 }
 
@@ -158,12 +158,6 @@ div.fade.in.modal {
   border-radius: 50%;
   padding: 14px;
 }
-
-/* .changing-text{
-  margin-left: 10em;
-  text-align: left;
-} */
-
 
 @keyframes animated-text{
   from{width: 0;}
@@ -188,15 +182,6 @@ img.chaya-greisman-pic{
   margin: 2em;
   margin-right: 2em;
   margin-left: 2em;
-}
-
-.fa-chevron-circle-down{
-  font-size: 25px;
-}
-
-.changing-about-text{
-  font-family: 'Raleway';
-  font-weight: 600;
 }
 
 .project-image{
@@ -269,4 +254,60 @@ h1.project-title{
 .close-project{
   text-align: right;
   font-size: 5vw;
+}
+
+.resume{
+width: 100%;
+}
+
+.appearing-text-container{
+  text-align: left;
+}
+
+h3.appearing-text::before {
+  content: 'software engineer // knowledge junkie // designer + artist // self taught gymnast // ice cream enthusiast';
+  font-family: 'Raleway';
+  font-weight: 600;
+  background-color: honeydew;
+  padding-left: 14px;
+  font-size: 21px;
+  text-align: center;
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari and Chrome */
+  -o-animation: fadein 10s; /* Opera */
+
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
 }
