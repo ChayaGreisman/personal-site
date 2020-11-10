@@ -265,7 +265,7 @@ width: 100%;
 }
 
 h3.appearing-text::before {
-  content: 'software engineer // knowledge junkie // designer + artist // self taught gymnast // ice cream enthusiast';
+  content: ' // software engineer // knowledge junkie // designer + artist // self taught gymnast // ice cream enthusiast // ';
   font-family: 'Raleway';
   font-weight: 600;
   background-color: honeydew;
