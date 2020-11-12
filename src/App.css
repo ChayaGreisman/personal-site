@@ -280,11 +280,9 @@ h3.appearing-text::before {
 }
 
 .me-pic{
-  width:30em;
   display: block;
   margin-left: 1%;
   border-radius: 50%;
-  border: solid #212529 5px;
   animation: fadein 10s;
   -moz-animation: fadein 10s; /* Firefox */
   -webkit-animation: fadein 10s; /* Safari and Chrome */
@@ -294,13 +292,21 @@ h3.appearing-text::before {
 
 @media (min-width: 300px){
   .home-content{
-    margin-top: 50%;
+    margin-top: 35%;
+  }
+  .me-pic{
+    width: 10em;
+    border: solid #212529 3px;
   }
 }
 
 @media (min-width: 1000px){
   .home-content{
     margin-top: 5%;
+  }
+  .me-pic{
+    width: 18em;
+    border: solid #212529 5px;
   }
 }
 
