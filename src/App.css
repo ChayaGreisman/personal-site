@@ -174,7 +174,7 @@ div.fade.in.modal {
 }
 
 img.chaya-greisman-pic{
-  width: 20em;
+  width: 35em;
 }
 
 .about-text{
@@ -265,7 +265,7 @@ width: 100%;
 }
 
 h3.appearing-text::before {
-  content: ' // software engineer // knowledge junkie // designer + artist // self taught gymnast // ice cream enthusiast // ';
+  content: ' // software engineer // knowledge junkie // designer + artist // self taught gymnast // ice cream enthusiast //  ';
   font-family: 'Raleway';
   font-weight: 600;
   background-color: honeydew;
@@ -276,6 +276,34 @@ h3.appearing-text::before {
   -moz-animation: fadein 10s; /* Firefox */
   -webkit-animation: fadein 10s; /* Safari and Chrome */
   -o-animation: fadein 10s; /* Opera */
+
+}
+
+.me-pic{
+  display: block;
+  margin-left: 1%;
+  border-radius: 50%;
+  border: solid #212529 5px;
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari and Chrome */
+  -o-animation: fadein 10s; /* Opera */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 300px){
+  .home-content{
+    margin-top: 50%;
+  }
+}
+
+@media (min-width: 1000px){
+  .home-content{
+    margin-top: 5%;
+  }
+}
+
+.home-content{
 
 }
 
