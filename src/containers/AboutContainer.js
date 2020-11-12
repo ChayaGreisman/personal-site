@@ -5,7 +5,8 @@ function AboutContainer(){
     <div style={{paddingTop: "75px"}}>
         {/* <img src="./mepic2.png" alt="chaya-greisman" className="chaya-greisman-pic"/> */}
         {/* <img src="./me-pic.png" alt="chaya-greisman" className="chaya-greisman-pic"/> */}
-        <img src="./me-pic-arrow.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
+        {/* <img src="./me-pic-arrow.png" alt="chaya-greisman" className="chaya-greisman-pic"/> */}
+        <img src="./me-pic-arrow-2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
         <div className = 'about-text'>
           <h4>I'm a Full Stack Developer with experience in Ruby, Rails, JavaScript, React, and multiple CSS frameworks.</h4>
           <br/>

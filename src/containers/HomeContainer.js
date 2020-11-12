@@ -4,7 +4,6 @@ import Socials from '../components/Socials';
 
 function HomeContainer(){
   return (
-    // style={{marginTop: window.screen.height - (window.screen.height/1.09)}}
     <div className='home-content' >
 
       
