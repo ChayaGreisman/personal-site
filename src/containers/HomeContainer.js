@@ -7,7 +7,7 @@ function HomeContainer(){
     <div className='home-content' >
 
       
-        <img width='20%' src="./me.jpg" alt="chaya-greisman" className="me-pic"/>
+        <img src="./me.jpg" alt="chaya-greisman" className="me-pic"/>
      
 
       

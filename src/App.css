@@ -280,6 +280,7 @@ h3.appearing-text::before {
 }
 
 .me-pic{
+  width:30em;
   display: block;
   margin-left: 1%;
   border-radius: 50%;
