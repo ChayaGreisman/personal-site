@@ -8,7 +8,7 @@ function AboutContainer(){
         {/* <img src="./me-pic-arrow.png" alt="chaya-greisman" className="chaya-greisman-pic"/> */}
         <img src="./me-pic-arrow-2.png" alt="chaya-greisman" className="chaya-greisman-pic"/>
         <div className = 'about-text'>
-          <h4>I'm a Full Stack Engineer based in NY with experience in HTML, CSS + CSS frameworks like Bootstrap, JavaScript (ES6+), and modern JavaScript frameworks like React and Redux.js.</h4>
+          <h4>I'm a Full Stack Engineer based in NY with experience in HTML, CSS + CSS frameworks like Bootstrap, JavaScript (ES6+), modern JavaScript frameworks like React and Redux.js, Ruby, Rails, and SQL.</h4>
           <br/>
           <h4>I'm passionate about clean design and delivering a full product that is both practical and intuitive.</h4>
           <br/>
