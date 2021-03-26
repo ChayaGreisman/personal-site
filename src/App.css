@@ -40,8 +40,9 @@ a.nav-link {
   background-position: -0% 0;
   background-size: 200% auto;
   transition: background-position 0.5s ease-out;
-  
+  border-left: #EBF7EE solid 2px;
 }
+
 a.nav-link:hover {
   background-position: -99.99% 0;
   border-left: rgb(157, 163, 157) solid 2px;
